@@ -10,3 +10,16 @@ header {
   padding: 20px;
 }
 
+main {
+  padding: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
