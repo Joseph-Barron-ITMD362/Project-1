@@ -9,3 +9,23 @@ const emailField = document.querySelector('input[name="email"]');
 const nameRegex = /^[a-zA-Z]+$/;
 const phoneRegex = /^\d{3}-\d{3}-\d{4}$/;
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+// Test the expressions against their set required formats.
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  let errors = [];
+  if (!nameRegex.test(firstNameField.value)) {
+    errors.push('First name is invalid');
+  }
+  if (!nameRegex.test(lastNameField.value)) {
+    errors.push('Last name is invalid');
+  }
+  if (!phoneRegex.test(phoneField.value)) {
+    errors.push('Phone number is invalid (use format XXX-XXX-XXXX)');
+  }
+  if (!emailRegex.test(emailField.value)) {
+    errors.push('Email is invalid');
+  }
+  
+});
