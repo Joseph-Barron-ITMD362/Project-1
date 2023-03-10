@@ -7,7 +7,7 @@ const emailField = document.querySelector('input[name="email"]');
 
 // Formats for field validations
 const nameRegex = /^[a-zA-Z]+$/;
-const phoneRegex = /^\d{3}-\d{3}-\d{4}$/;
+const phoneRegex = /^[0-9]{3}-[0-9]{3}-[0-9]{4}$/;
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 // Test the expressions against their set required formats.
