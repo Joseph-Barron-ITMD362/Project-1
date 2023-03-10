@@ -1,4 +1,4 @@
-// Defile constants for each field
+// Define constants for each field
 const form = document.querySelector('form');
 const firstNameField = document.querySelector('input[name="first_name_field"]');
 const lastNameField = document.querySelector('input[name="last_name_field"]');
@@ -35,5 +35,15 @@ form.addEventListener('submit', function(event) {
     // Successful form completion
     alert('Thank you for submitting the form!');
     form.reset();
+  }
+});
+
+// Restrict phone input to only accept numbers in phone number format
+phoneField.addEventListener('input', function() {
+  const inputValue = phoneField.value;
+  const formattedValue = inputValue.replace(/[^0-9-]/g, '').slice(0, 12);
+
+  if (formattedValue !== inputValue) {
+    phoneField.value = formattedValue;
   }
 });
