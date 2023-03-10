@@ -28,4 +28,12 @@ form.addEventListener('submit', function(event) {
     errors.push('Email is invalid');
   }
   
+  // Error messages
+  if (errors.length > 0) {
+    alert(errors.join('\n'));
+  } else {
+    // Successful form completion
+    alert('Thank you for submitting the form!');
+    form.reset();
+  }
 });
