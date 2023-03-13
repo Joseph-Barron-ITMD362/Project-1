@@ -8,17 +8,25 @@ header {
   color: white;
   text-align: center;
   padding: 20px;
+  width: 100%;
 }
 
 main {
   padding: 20px;
-  background-image: url("https://images.adsttc.com/media/images/56a1/90b0/e58e/ceb1/5000/02c7/newsletter/shutterstock_143073025.jpg?1453428902");
+  width: 100%;
 }
 
 form {
   max-width: 600px;
   margin: 0 auto;
-  background-color: rgba(3, 138, 255, .4)
+  background-color: rgba(3, 138, 255, .4);
+  background-image: url("https://images.adsttc.com/media/images/56a1/90b0/e58e/ceb1/5000/02c7/newsletter/shutterstock_143073025.jpg?1453428902");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2em;
 }
 
 label {
@@ -34,6 +42,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 20px;
+  max-width: 100%;
 }
 
 button[type="submit"] {
@@ -43,6 +52,7 @@ button[type="submit"] {
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
+  max-width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -50,6 +60,7 @@ button[type="submit"] {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+	background-image: url("https://images.adsttc.com/media/images/56a1/90b0/e58e/ceb1/5000/02c7/newsletter/shutterstock_143073025.jpg?1453428902");
   }
   div {
     width: 48%;
