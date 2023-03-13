@@ -12,11 +12,13 @@ header {
 
 main {
   padding: 20px;
+  background-image: url("https://images.adsttc.com/media/images/56a1/90b0/e58e/ceb1/5000/02c7/newsletter/shutterstock_143073025.jpg?1453428902");
 }
 
 form {
   max-width: 600px;
   margin: 0 auto;
+  background-color: rgba(3, 138, 255, .4)
 }
 
 label {
