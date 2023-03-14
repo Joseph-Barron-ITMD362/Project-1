@@ -19,7 +19,7 @@ header {
 main {
   padding: 20px;
   width: 100%;
-  background-image: url("https://images.adsttc.com/media/images/56a1/90b0/e58e/ceb1/5000/02c7/newsletter/shutterstock_143073025.jpg?1453428902");
+  background-image: url("https://images.unsplash.com/photo-1575380591643-b2c92368dc6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2FnbyUyMHNreWxpbmV8ZW58MHx8MHx8&w=1000&q=80");
   background-size: cover;
 }
 
@@ -65,8 +65,7 @@ button[type="submit"] {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-	background-image: url("https://images.adsttc.com/media/images/56a1/90b0/e58e/ceb1/5000/02c7/newsletter/shutterstock_143073025.jpg?1453428902");
-	background-size: 100%;
+	background-image: url("https://images.unsplash.com/photo-1575380591643-b2c92368dc6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2FnbyUyMHNreWxpbmV8ZW58MHx8MHx8&w=1000&q=80");
   }
   div {
     width: 48%;
