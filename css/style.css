@@ -24,48 +24,57 @@ main {
 }
 
 form {
-  max-width: 600px;
+  font-size: 1.2em;
+  max-width: none;
   margin: 0 auto;
-  background-color: rgba(3, 138, 255, .4);
+  background-color: rgba(3, 138, 255, .6);
   background-position: center center;
   display: flex;
+  padding: 2em;
   flex-direction: column;
-  align-items: center;
-  border-radius: 2em;
+  border-radius: 1em;
 }
 
 label {
   display: block;
-  margin-bottom: 10px;
+  font-size: 1.5em;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 10px;
+  padding: 1.5em;                             
   border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  border-radius: 0;
+  margin-bottom: 2em;
   max-width: 100%;
+  font-size: 1em;
 }
 
 button[type="submit"] {
   background-color: rgb(30, 69, 31);
   color: white;
   border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
+  border-radius: 0;
+  padding: 1em 2em;
   cursor: pointer;
   max-width: 100%;
+  font-size: 1.8em;
 }
 
 @media only screen and (min-width: 768px) {
   main {
+    padding: 20px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1575380591643-b2c92368dc6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2FnbyUyMHNreWxpbmV8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-	background-image: url("https://images.unsplash.com/photo-1575380591643-b2c92368dc6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2FnbyUyMHNreWxpbmV8ZW58MHx8MHx8&w=1000&q=80");
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
   div {
     width: 48%;
@@ -79,6 +88,7 @@ h1 {
 }
 
 label {
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -88,8 +98,11 @@ header {
 }
 
 button[type="submit"] {
+  border-radius: 5px;
+  padding: 10px 20px;
   background-color: #4caf50;
   color: white;
+  font-size: 1em;
 }
 
 button[type="submit"]:hover {
@@ -100,5 +113,8 @@ input[type="text"],
 input[type="email"],
 textarea,
 button[type="submit"] {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
   box-shadow: 0px 0px 5px #ccc;
 }
