@@ -1,27 +1,32 @@
 body {
   font-size: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
   background-color: deepskyblue;
   color: white;
   text-align: center;
   padding: 20px;
-  width: 100%;
 }
 
 main {
   padding: 20px;
   width: 100%;
+  background-image: url("https://images.adsttc.com/media/images/56a1/90b0/e58e/ceb1/5000/02c7/newsletter/shutterstock_143073025.jpg?1453428902");
+  background-size: cover;
 }
 
 form {
   max-width: 600px;
   margin: 0 auto;
   background-color: rgba(3, 138, 255, .4);
-  background-image: url("https://images.adsttc.com/media/images/56a1/90b0/e58e/ceb1/5000/02c7/newsletter/shutterstock_143073025.jpg?1453428902");
-  background-size: cover;
   background-position: center center;
   display: flex;
   flex-direction: column;
@@ -61,6 +66,7 @@ button[type="submit"] {
     flex-wrap: wrap;
     justify-content: space-between;
 	background-image: url("https://images.adsttc.com/media/images/56a1/90b0/e58e/ceb1/5000/02c7/newsletter/shutterstock_143073025.jpg?1453428902");
+	background-size: 100%;
   }
   div {
     width: 48%;
